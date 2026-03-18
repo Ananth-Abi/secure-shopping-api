@@ -1,0 +1,37 @@
+# WSO2 product folders - too large for GitHub (1GB+ each)
+wso2am-*/
+wso2is-*/
+
+# WSO2 runtime generated files
+*.log
+*.pid
+tmp/
+repository/logs/
+repository/database/
+repository/deployment/server/
+repository/components/dropins/
+repository/components/lib/
+
+# WSO2 security files - never commit these
+*.jks
+*.p12
+*.crt
+*.cer
+*.pfx
+
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Environment variables - never commit secrets
+.env
+.env.local
